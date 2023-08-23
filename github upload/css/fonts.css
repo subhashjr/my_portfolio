@@ -1,0 +1,107 @@
+@font-face{font-family:"lora-regular";src:url(../fonts/lora/lora-regular-webfont.woff2) format("woff2") , url(../fonts/lora/lora-regular-webfont.woff) format("woff");font-style:normal;font-weight:normal}@font-face{font-family:"lora-italic";src:url(../fonts/lora/lora-italic-webfont.woff2) format("woff2") , url(../fonts/lora/lora-italic-webfont.woff) format("woff");font-style:normal;font-weight:normal}@font-face{font-family:"lora-bold";src:url(../fonts/lora/lora-bold-webfont.woff2) format("woff2") , url(../fonts/lora/lora-bold-webfont.woff) format("woff");font-style:normal;font-weight:normal}@font-face{font-family:"lora-bold-italic";src:url(../fonts/lora/lora-bolditalic-webfont.woff2) format("woff2") , url(../fonts/lora/lora-bolditalic-webfont.woff) format("woff");font-style:normal;font-weight:normal}@font-face{font-family:"montserrat-black";src:url(../fonts/montserrat/montserrat-black-webfont.woff2) format("woff2") , url(../fonts/montserrat/montserrat-black-webfont.woff) format("woff");font-style:normal;font-weight:normal}@font-face{font-family:"montserrat-extrabold";src:url(../fonts/montserrat/montserrat-extrabold-webfont.woff2) format("woff2") , url(../fonts/montserrat/montserrat-extrabold-webfont.woff) format("woff");font-style:normal;font-weight:normal}@font-face{font-family:"montserrat-bold";src:url(../fonts/montserrat/montserrat-bold-webfont.woff2) format("woff2") , url(../fonts/montserrat/montserrat-bold-webfont.woff) format("woff");font-style:normal;font-weight:normal}@font-face{font-family:"montserrat-semibold";src:url(../fonts/montserrat/montserrat-semibold-webfont.woff2) format("woff2") , url(../fonts/montserrat/montserrat-semibold-webfont.woff) format("woff");font-style:normal;font-weight:normal}@font-face{font-family:"montserrat-medium";src:url(../fonts/montserrat/montserrat-medium-webfont.woff2) format("woff2") , url(../fonts/montserrat/montserrat-medium-webfont.woff) format("woff");font-style:normal;font-weight:normal}@font-face{font-family:"montserrat-regular";src:url(../fonts/montserrat/montserrat-regular-webfont.woff2) format("woff2") , url(../fonts/montserrat/montserrat-regular-webfont.woff) format("woff");font-style:normal;font-weight:normal}@font-face{font-family:"montserrat-light";src:url(../fonts/montserrat/montserrat-light-webfont.woff2) format("woff2") , url(../fonts/montserrat/montserrat-light-webfont.woff) format("woff");font-style:normal;font-weight:normal}@font-face{font-family:"montserrat-extralight";src:url(../fonts/montserrat/montserrat-extralight-webfont.woff2) format("woff2") , url(../fonts/montserrat/montserrat-extralight-webfont.woff) format("woff");font-style:normal;font-weight:normal}@font-face{font-family:"montserrat-thin";src:url(../fonts/montserrat/montserrat-thin-webfont.woff2) format("woff2") , url(../fonts/montserrat/montserrat-thin-webfont.woff) format("woff");font-style:normal;font-weight:normal}
+._email_ {
+    color: rgba(255, 255, 255, 0.4);
+    margin-block-end: 0;
+}
+._email_:hover {
+    color: white;
+}
+
+.text {
+  font-family: "montserrat-medium", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  height: 3rem;
+  top: 50%;
+  margin-left: 0;
+  margin-top: -20px;
+}
+
+@media only screen and (max-width: 480px){
+  .text {
+    text-align: left;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .text {
+    text-align: left;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .text {
+    text-align: left;
+    margin-left: 2%;
+  }
+}
+
+@media only screen and (max-width: 280px){
+  .text {
+    display: none;
+  }
+}
+
+.text p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.belize {
+  color: #2980b9;
+}
+
+.pomegranate {
+  color: #c0392b;
+}
+
+.green {
+  color: #16a085;
+}
+
+.midnight {
+  color: #2c3e50;
+}
+
+/* .hero-name {
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent; 
+    background: linear-gradient( 167deg, #DDE6E8, #2980B9)
+}; */
