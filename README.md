@@ -8,4 +8,4 @@
 
 <hr>
 
-Visit website: [zameel7.live](https://zameel7.live)
+Visit website: [joash.com](https://joash.com)
