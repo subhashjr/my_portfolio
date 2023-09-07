@@ -23,10 +23,10 @@
 >  My Personal portfolio showcasing my works and the my history of learning.
 
 Landing Page:
-![screenshot](.\images\home.png)
+![screenshot](\images\home.png)
 
 Contact Me:
-![screenshot](.\images\contact.png)
+![screenshot](\images\contact.png)
 
 About Me:
 ![screenshot](.\images\about.png)
