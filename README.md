@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+
 
 <!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
@@ -15,12 +15,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Issues][issues-shield]][issues-url] 
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg) 
 
-# Weather-App-JS
 
->  A weather app that pulls from the OpenWeatherMap API to allow users to search for and view the forecast in cities worldwide. Built with JavaScript.
+# Personal Portfolio Website
+
+>  My Personal portfolio showcasing my works and the my history of learning.
 
 Landing Page:
 ![screenshot](.\images\home.png)
